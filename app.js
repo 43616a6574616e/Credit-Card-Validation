@@ -122,7 +122,7 @@ const checkCardNumber = (cardNumber, companyName) => {
 
 	if (legitCheck) {
 
-		info.textContent = `your card ${companyName} has been successfully verified!`
+		info.textContent = `your card (${companyName}) has been successfully verified!`
 		info.style.color = 'lime'
 		btn.style.visibility = 'hidden'
 
